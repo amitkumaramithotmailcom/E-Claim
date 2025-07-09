@@ -1,0 +1,29 @@
+﻿@using EClaim.Application.Models.Claim
+@model IEnumerable<ClaimListItemViewModel>
+
+<div class="container mt-4">
+    <h2>My Claims</h2>
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th>Type</th>
+                <th>Status</th>
+                <th>Submitted</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var claim in Model)
+            {
+                <tr>
+                    <td>@claim.ClaimType</td>
+                    <td>@claim.Status</td>
+                    <td>@claim.SubmittedAt.ToShortDateString()</td>
+                    <td>
+                        <a asp-action="Details" asp-route-id="@claim.Id" class="btn btn-sm btn-outline-info">View</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

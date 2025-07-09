@@ -1,0 +1,12 @@
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Domain\bin\Debug\net8.0\EClaim.Domain.deps.json
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Domain\bin\Debug\net8.0\EClaim.Domain.dll
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Domain\bin\Debug\net8.0\EClaim.Domain.pdb
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Domain\obj\Debug\net8.0\EClaim.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Domain\obj\Debug\net8.0\EClaim.Domain.AssemblyInfoInputs.cache
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Domain\obj\Debug\net8.0\EClaim.Domain.AssemblyInfo.cs
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Domain\obj\Debug\net8.0\EClaim.Domain.csproj.CoreCompileInputs.cache
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Domain\obj\Debug\net8.0\EClaim.Domain.dll
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Domain\obj\Debug\net8.0\refint\EClaim.Domain.dll
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Domain\obj\Debug\net8.0\EClaim.Domain.pdb
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Domain\obj\Debug\net8.0\ref\EClaim.Domain.dll
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Domain\obj\Debug\net8.0\EClaim.Domain.csproj.AssemblyReference.cache

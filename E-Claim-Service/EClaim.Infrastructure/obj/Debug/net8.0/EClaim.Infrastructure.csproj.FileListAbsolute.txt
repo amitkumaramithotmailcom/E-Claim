@@ -1,0 +1,17 @@
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Infrastructure\bin\Debug\net8.0\EClaim.Infrastructure.deps.json
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Infrastructure\bin\Debug\net8.0\EClaim.Infrastructure.runtimeconfig.json
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Infrastructure\bin\Debug\net8.0\EClaim.Infrastructure.dll
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Infrastructure\bin\Debug\net8.0\EClaim.Infrastructure.pdb
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Infrastructure\obj\Debug\net8.0\EClaim.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Infrastructure\obj\Debug\net8.0\EClaim.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Infrastructure\obj\Debug\net8.0\EClaim.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Infrastructure\obj\Debug\net8.0\EClaim.Infrastructure.AssemblyInfo.cs
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Infrastructure\obj\Debug\net8.0\EClaim.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Infrastructure\obj\Debug\net8.0\EClaim.Infrastructure.dll
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Infrastructure\obj\Debug\net8.0\refint\EClaim.Infrastructure.dll
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Infrastructure\obj\Debug\net8.0\EClaim.Infrastructure.pdb
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Infrastructure\obj\Debug\net8.0\EClaim.Infrastructure.genruntimeconfig.cache
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Infrastructure\obj\Debug\net8.0\ref\EClaim.Infrastructure.dll
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Infrastructure\bin\Debug\net8.0\EClaim.Domain.dll
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Infrastructure\bin\Debug\net8.0\EClaim.Domain.pdb
+C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Infrastructure\obj\Debug\net8.0\EClaim.I.D0F10890.Up2Date
