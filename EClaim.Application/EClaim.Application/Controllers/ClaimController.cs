@@ -65,10 +65,18 @@ namespace EClaim.Application.Controllers
                 UserId = userId
             };
 
+            var allowedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
             if (model.Documents != null)
             {
                 foreach (var file in model.Documents)
                 {
+                    var extension = Path.GetExtension(file.FileName).ToLowerInvariant();
+                    if (!allowedExtensions.Contains(extension))
+                    {
+                        ModelState.AddModelError("Documents", "Only image files (.jpg, .jpeg, .png, .gif) are allowed.");
+                        return View(); 
+                    }
+
                     var path = Path.Combine(_env.WebRootPath, _uploadFilePath, file.FileName);
                     using var stream = System.IO.File.Create(path);
                     await file.CopyToAsync(stream);

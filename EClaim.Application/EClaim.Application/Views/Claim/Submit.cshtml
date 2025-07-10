@@ -8,24 +8,24 @@
             <label asp-for="ClaimType" class="form-label">Claim Type</label>
             <select asp-for="ClaimType" class="form-control">
                 <option value="">-- Select Type --</option>
-               @*  <option>Health</option>
-                <option>Vehicle</option>
-                <option>Property</option> *@
                 @foreach (var type in Utility.ClaimTypeOptions)
                 {
                     <option>@type</option>
                 }
             </select>
+            <span asp-validation-for="ClaimType" class="text-danger"></span>
         </div>
 
         <div class="mb-3">
             <label asp-for="Description" class="form-label">Description</label>
             <textarea asp-for="Description" class="form-control" rows="4"></textarea>
+            <span asp-validation-for="Description" class="text-danger"></span>
         </div>
 
         <div class="mb-3">
             <label class="form-label">Upload Supporting Documents</label>
-            <input asp-for="Documents" type="file" class="form-control" multiple />
+            <input asp-for="Documents" type="file" class="form-control" multiple accept="image/*" />
+            <span asp-validation-for="Documents" class="text-danger"></span>
         </div>
 
         <button type="submit" class="btn btn-primary">Submit Claim</button>

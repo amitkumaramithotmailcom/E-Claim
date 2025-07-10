@@ -10,7 +10,7 @@ namespace EClaim.Application.Models.Claim
 
         [Required]
         public string Description { get; set; }
-
+        [Required]
         public List<IFormFile> Documents { get; set; } = new();
     }
 }
