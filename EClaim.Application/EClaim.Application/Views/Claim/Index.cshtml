@@ -1,29 +1,35 @@
 ﻿@using EClaim.Application.Models.Claim
-@model IEnumerable<ClaimListItemViewModel>
+@model ClaimSubmissionViewModel
 
-<div class="container mt-4">
-    <h2>My Claims</h2>
-    <table class="table table-bordered table-hover">
-        <thead>
-            <tr>
-                <th>Type</th>
-                <th>Status</th>
-                <th>Submitted</th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var claim in Model)
-            {
-                <tr>
-                    <td>@claim.ClaimType</td>
-                    <td>@claim.Status</td>
-                    <td>@claim.SubmittedAt.ToShortDateString()</td>
-                    <td>
-                        <a asp-action="Details" asp-route-id="@claim.Id" class="btn btn-sm btn-outline-info">View</a>
-                    </td>
-                </tr>
-            }
-        </tbody>
-    </table>
-</div>
+@{
+    ViewData["Title"] = "Submit Claim";
+}
+
+<h2>Submit a Claim</h2>
+
+<form asp-action="Submit" asp-controller="Claims" enctype="multipart/form-data" method="post">
+    <div class="form-group">
+        <label asp-for="ClaimType"></label>
+        <input asp-for="ClaimType" class="form-control" />
+        <span asp-validation-for="ClaimType" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Description"></label>
+        <textarea asp-for="Description" class="form-control"></textarea>
+        <span asp-validation-for="Description" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Documents">Upload Documents</label>
+        <input asp-for="Documents" type="file" multiple class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Submit Claim</button>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

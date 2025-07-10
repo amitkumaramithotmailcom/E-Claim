@@ -43,15 +43,14 @@ namespace EClaim.Infrastructure.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime2");
 
-                    b.Property<DateTime>("PerformedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int>("PerformedBy")
+                    b.Property<int>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("ClaimRequestId");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("ClaimWorkflowSteps");
                 });
@@ -159,7 +158,15 @@ namespace EClaim.Infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("EClaim.Domain.Entities.User", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
                     b.Navigation("ClaimRequest");
+
+                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("EClaim.Domain.Entities.ClaimDocument", b =>

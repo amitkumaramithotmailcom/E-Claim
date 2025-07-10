@@ -2,9 +2,9 @@
 {
     public enum Role
     {
-        Admin,
-        Claimant,
-        Adjuster,
-        Approver
+        Claimant = 1,
+        Adjuster = 2,
+        Approver = 3,
+        Admin = 4
     }
 }

@@ -1,8 +1,14 @@
+using EClaim.Application.EmailService;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddScoped<IEmailService, EmailService>();
+
+builder.Services.AddHttpContextAccessor();
+builder.Services.AddScoped<IViewRenderService, ViewRenderService>();
+
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
@@ -16,6 +22,8 @@ builder.Services.AddHttpClient("api", client =>
 {
     client.BaseAddress = new Uri("https://localhost:7220/"); // Your API URL
 });
+
+builder.Services.AddHttpContextAccessor();
 
 var app = builder.Build();
 

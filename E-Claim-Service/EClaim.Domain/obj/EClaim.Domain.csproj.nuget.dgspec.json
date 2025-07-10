@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\amitkumar18\\OneDrive - Nagarro\\Traning\\E-Claim\\E-Claim-Service\\EClaim.Domain\\EClaim.Domain.csproj": {}
+    "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.Domain\\EClaim.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\amitkumar18\\OneDrive - Nagarro\\Traning\\E-Claim\\E-Claim-Service\\EClaim.Domain\\EClaim.Domain.csproj": {
+    "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.Domain\\EClaim.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\amitkumar18\\OneDrive - Nagarro\\Traning\\E-Claim\\E-Claim-Service\\EClaim.Domain\\EClaim.Domain.csproj",
+        "projectUniqueName": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.Domain\\EClaim.Domain.csproj",
         "projectName": "EClaim.Domain",
-        "projectPath": "C:\\Users\\amitkumar18\\OneDrive - Nagarro\\Traning\\E-Claim\\E-Claim-Service\\EClaim.Domain\\EClaim.Domain.csproj",
+        "projectPath": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.Domain\\EClaim.Domain.csproj",
         "packagesPath": "C:\\Users\\amitkumar18\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\amitkumar18\\OneDrive - Nagarro\\Traning\\E-Claim\\E-Claim-Service\\EClaim.Domain\\obj\\",
+        "outputPath": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

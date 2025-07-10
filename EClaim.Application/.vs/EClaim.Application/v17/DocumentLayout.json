@@ -1,26 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\amitkumar18\\OneDrive - Nagarro\\Traning\\E-Claim\\EClaim.Application\\",
+  "WorkspaceRootPath": "C:\\Amit\\E-Claim\\EClaim.Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|c:\\users\\amitkumar18\\onedrive - nagarro\\traning\\e-claim\\eclaim.application\\eclaim.application\\views\\claim\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|solutionrelative:eclaim.application\\views\\claim\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|c:\\users\\amitkumar18\\onedrive - nagarro\\traning\\e-claim\\eclaim.application\\eclaim.application\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|c:\\amit\\e-claim\\eclaim.application\\eclaim.application\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|solutionrelative:eclaim.application\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|c:\\users\\amitkumar18\\onedrive - nagarro\\traning\\e-claim\\eclaim.application\\eclaim.application\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|solutionrelative:eclaim.application\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|c:\\amit\\e-claim\\eclaim.application\\eclaim.application\\views\\claim\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|solutionrelative:eclaim.application\\views\\claim\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|c:\\users\\amitkumar18\\onedrive - nagarro\\traning\\e-claim\\eclaim.application\\eclaim.application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|solutionrelative:eclaim.application\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|c:\\users\\amitkumar18\\onedrive - nagarro\\traning\\e-claim\\eclaim.application\\eclaim.application\\views\\claim\\submit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|solutionrelative:eclaim.application\\views\\claim\\submit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|c:\\amit\\e-claim\\eclaim.application\\eclaim.application\\emailservice\\iviewrenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|solutionrelative:eclaim.application\\emailservice\\iviewrenderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\amitkumar18\\OneDrive - Nagarro\\Traning\\E-Claim\\EClaim.Application\\EClaim.Application\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "EClaim.Application\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\amitkumar18\\OneDrive - Nagarro\\Traning\\E-Claim\\EClaim.Application\\EClaim.Application\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "EClaim.Application\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T05:41:16.43Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\amitkumar18\\OneDrive - Nagarro\\Traning\\E-Claim\\EClaim.Application\\EClaim.Application\\Program.cs",
-              "RelativeDocumentMoniker": "EClaim.Application\\Program.cs",
-              "ToolTip": "C:\\Users\\amitkumar18\\OneDrive - Nagarro\\Traning\\E-Claim\\EClaim.Application\\EClaim.Application\\Program.cs",
-              "RelativeToolTip": "EClaim.Application\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T05:39:58.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\amitkumar18\\OneDrive - Nagarro\\Traning\\E-Claim\\EClaim.Application\\EClaim.Application\\Views\\Claim\\Details.cshtml",
-              "RelativeDocumentMoniker": "EClaim.Application\\Views\\Claim\\Details.cshtml",
-              "ToolTip": "C:\\Users\\amitkumar18\\OneDrive - Nagarro\\Traning\\E-Claim\\EClaim.Application\\EClaim.Application\\Views\\Claim\\Details.cshtml",
-              "RelativeToolTip": "EClaim.Application\\Views\\Claim\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T05:01:04.674Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Submit.cshtml",
-              "DocumentMoniker": "C:\\Users\\amitkumar18\\OneDrive - Nagarro\\Traning\\E-Claim\\EClaim.Application\\EClaim.Application\\Views\\Claim\\Submit.cshtml",
-              "RelativeDocumentMoniker": "EClaim.Application\\Views\\Claim\\Submit.cshtml",
-              "ToolTip": "C:\\Users\\amitkumar18\\OneDrive - Nagarro\\Traning\\E-Claim\\EClaim.Application\\EClaim.Application\\Views\\Claim\\Submit.cshtml",
-              "RelativeToolTip": "EClaim.Application\\Views\\Claim\\Submit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-09T05:00:36.109Z",
+              "Title": "ClaimController.cs",
+              "DocumentMoniker": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Controllers\\ClaimController.cs",
+              "RelativeDocumentMoniker": "EClaim.Application\\Controllers\\ClaimController.cs",
+              "ToolTip": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Controllers\\ClaimController.cs",
+              "RelativeToolTip": "EClaim.Application\\Controllers\\ClaimController.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAAIwKMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T10:45:00.165Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ClaimController.cs",
-              "DocumentMoniker": "C:\\Users\\amitkumar18\\OneDrive - Nagarro\\Traning\\E-Claim\\EClaim.Application\\EClaim.Application\\Controllers\\ClaimController.cs",
-              "RelativeDocumentMoniker": "EClaim.Application\\Controllers\\ClaimController.cs",
-              "ToolTip": "C:\\Users\\amitkumar18\\OneDrive - Nagarro\\Traning\\E-Claim\\EClaim.Application\\EClaim.Application\\Controllers\\ClaimController.cs",
-              "RelativeToolTip": "EClaim.Application\\Controllers\\ClaimController.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwFEAAAAtAAAAAAAAAA==",
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Views\\Claim\\Search.cshtml",
+              "RelativeDocumentMoniker": "EClaim.Application\\Views\\Claim\\Search.cshtml",
+              "ToolTip": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Views\\Claim\\Search.cshtml",
+              "RelativeToolTip": "EClaim.Application\\Views\\Claim\\Search.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T10:00:12.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IViewRenderService.cs",
+              "DocumentMoniker": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\EmailService\\IViewRenderService.cs",
+              "RelativeDocumentMoniker": "EClaim.Application\\EmailService\\IViewRenderService.cs",
+              "ToolTip": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\EmailService\\IViewRenderService.cs",
+              "RelativeToolTip": "EClaim.Application\\EmailService\\IViewRenderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T04:59:56.569Z",
+              "WhenOpened": "2025-07-10T09:39:30.818Z",
               "EditorCaption": ""
             }
           ]

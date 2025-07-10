@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EClaim.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9f0467057ee9e8d0dff1f32048b899fe1889e3e")]
 [assembly: System.Reflection.AssemblyProductAttribute("EClaim.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EClaim.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

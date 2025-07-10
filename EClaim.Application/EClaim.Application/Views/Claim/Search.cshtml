@@ -1,0 +1,110 @@
+﻿@using EClaim.Application.Models.ViewModel
+@model ClaimSearchViewModel
+
+<h2>Search Claims</h2>
+
+<form asp-action="Search" method="get" class="row g-3">
+    <div class="col-md-3">
+        <label>Status</label>
+        <select asp-for="Status" class="form-control">
+            <option value="">-- All --</option>
+            @foreach (var status in Model.StatusOptions)
+            {
+                <option value="@status">@status</option>
+            }
+        </select>
+    </div>
+
+    <div class="col-md-3">
+        <label>Claim Type</label>
+        <select asp-for="ClaimType" class="form-control">
+            <option value="">-- All --</option>
+            @foreach (var type in Model.ClaimTypeOptions)
+            {
+                <option value="@type">@type</option>
+            }
+        </select>
+    </div>
+
+    <div class="col-md-3">
+        <label>From Date</label>
+        <input asp-for="FromDate" type="date" class="form-control" />
+    </div>
+
+    <div class="col-md-3">
+        <label>To Date</label>
+        <input asp-for="ToDate" type="date" class="form-control" />
+    </div>
+
+    <div class="col-md-12 mt-3">
+        <button type="submit" class="btn btn-primary">Search</button>
+    </div>
+</form>
+
+@if (Model.Results != null)
+{
+    <h4 class="mt-4">Results:</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => Model.Results.FirstOrDefault().Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => Model.Results.FirstOrDefault().ClaimType)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => Model.Results.FirstOrDefault().User.FullName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => Model.Results.FirstOrDefault().User.Email)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => Model.Results.FirstOrDefault().Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => Model.Results.FirstOrDefault().Documents)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => Model.Results.FirstOrDefault().Status)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Results)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ClaimType)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.User.FullName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.User.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        <ul>
+                            @foreach (var doc in item.Documents)
+                            {
+                                <li>
+                                    <a href="@doc.FilePath" target="_blank">@doc.FileName</a>
+                                </li>
+                            }
+                        </ul>
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Status)
+                    </td>
+                    
+                </tr>
+            }
+        </tbody>
+    </table>
+}

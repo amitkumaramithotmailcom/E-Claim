@@ -29,5 +29,12 @@ namespace E_Claim_Service.Controllers
             var result = await _authService.LoginAsync(dto);
             return Ok(result);
         }
+
+        [HttpGet("ConfirmEmail/{email}/{token}")]
+        public async Task<IActionResult> ConfirmEmail(string email, string token)
+        {
+            var result = await _authService.ConfirmEmail(email, token);
+            return Ok(true);
+        }
     }
 }

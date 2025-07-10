@@ -38,7 +38,7 @@ namespace EClaim.Infrastructure
                 FullName = dto.FullName,
                 PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password),
                 Role = dto.Role,
-                IsEmailVerified = true // Set to false if implementing email verification
+                IsEmailVerified = false 
             };
 
             _context.Users.Add(user);
@@ -82,8 +82,21 @@ namespace EClaim.Infrastructure
                 Token = new JwtSecurityTokenHandler().WriteToken(token),
                 Email = user.Email,
                 FullName = user.FullName,
-                Role = user.Role.ToString()
+                Role = user.Role.ToString(),
+                UserId= user.Id
             };
+        }
+
+        public async Task<bool> ConfirmEmail(string email, string token)
+        {
+            var user = await _context.Users.FirstOrDefaultAsync(u => u.Email == email);
+            if (user == null)
+                throw new Exception("Invalid credentials.");
+
+            user.IsEmailVerified=true;
+            await _context.SaveChangesAsync();
+
+            return true;
         }
     }
 }

@@ -11,5 +11,6 @@ namespace EClaim.Domain.Interfaces
     {
         Task<AuthResponseDto> RegisterAsync(RegisterRequestDto dto);
         Task<AuthResponseDto> LoginAsync(LoginRequestDto dto);
+        Task<bool> ConfirmEmail(string email, string token);
     }
 }

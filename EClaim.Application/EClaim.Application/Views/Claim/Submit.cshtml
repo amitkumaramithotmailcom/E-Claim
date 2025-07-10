@@ -8,9 +8,13 @@
             <label asp-for="ClaimType" class="form-label">Claim Type</label>
             <select asp-for="ClaimType" class="form-control">
                 <option value="">-- Select Type --</option>
-                <option>Health</option>
+               @*  <option>Health</option>
                 <option>Vehicle</option>
-                <option>Property</option>
+                <option>Property</option> *@
+                @foreach (var type in Utility.ClaimTypeOptions)
+                {
+                    <option>@type</option>
+                }
             </select>
         </div>
 

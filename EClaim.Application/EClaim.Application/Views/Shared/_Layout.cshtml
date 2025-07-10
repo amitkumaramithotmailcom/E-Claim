@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@inject IHttpContextAccessor HttpContextAccessor
+@{
+    var user = HttpContextAccessor.HttpContext.User;
+}
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -22,11 +26,17 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
+                        @if (User.Identity.IsAuthenticated && user.IsInRole("Claimant"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Claim" asp-action="Submit">Submit Claim</a>
+                            </li>
+                        }
+                       @*  <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Claim" asp-action="ClaimDetails" asp-route-fromDate="@DateTime.Now.AddDays(-1).ToString("dd-MMM-yyyy")" asp-route-toDate="@DateTime.Now.ToString("dd-MMM-yyyy")">Claim Details</a>
+                        </li> *@
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AdminOnlyPage">Admin Only Page</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Claim" asp-action="Search" >Claim Search</a>
                         </li>
                     </ul>
                     <div class="collapse navbar-collapse" id="navbarNav">

@@ -16,6 +16,12 @@ public class AppDbContext : DbContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<ClaimWorkflowStep>()
+                .HasOne(ws => ws.User)
+                .WithMany()
+                .HasForeignKey(ws => ws.UserId)
+                .OnDelete(DeleteBehavior.NoAction);
+
         base.OnModelCreating(modelBuilder);
         // Fluent API configs
     }

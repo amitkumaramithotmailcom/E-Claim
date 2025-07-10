@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Email Confirmed</title>
+    <style>
+        body {
+            background-color: #f9f9f9;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            text-align: center;
+            padding: 100px;
+        }
+
+        .container {
+            background-color: white;
+            padding: 40px;
+            max-width: 600px;
+            margin: 0 auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #4CAF50;
+        }
+
+        p {
+            font-size: 18px;
+            color: #333;
+        }
+
+        a.button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 24px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+
+            a.button:hover {
+                background-color: #45a049;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>✅ Email Confirmed!</h1>
+        <p>Thank you for verifying your email address.</p>
+        <a asp-action="Login">Go to Login</a>
+    </div>
+</body>
+</html>

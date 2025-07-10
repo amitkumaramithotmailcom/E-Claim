@@ -9,3 +9,15 @@ C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.A
 C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Application\obj\Debug\net8.0\refint\EClaim.Application.dll
 C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Application\obj\Debug\net8.0\EClaim.Application.pdb
 C:\Users\amitkumar18\OneDrive - Nagarro\Traning\E-Claim\E-Claim-Service\EClaim.Application\obj\Debug\net8.0\ref\EClaim.Application.dll
+C:\Amit\E-Claim\E-Claim-Service\EClaim.Application\bin\Debug\net8.0\EClaim.Application.deps.json
+C:\Amit\E-Claim\E-Claim-Service\EClaim.Application\bin\Debug\net8.0\EClaim.Application.dll
+C:\Amit\E-Claim\E-Claim-Service\EClaim.Application\bin\Debug\net8.0\EClaim.Application.pdb
+C:\Amit\E-Claim\E-Claim-Service\EClaim.Application\obj\Debug\net8.0\EClaim.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Amit\E-Claim\E-Claim-Service\EClaim.Application\obj\Debug\net8.0\EClaim.Application.AssemblyInfoInputs.cache
+C:\Amit\E-Claim\E-Claim-Service\EClaim.Application\obj\Debug\net8.0\EClaim.Application.AssemblyInfo.cs
+C:\Amit\E-Claim\E-Claim-Service\EClaim.Application\obj\Debug\net8.0\EClaim.Application.csproj.CoreCompileInputs.cache
+C:\Amit\E-Claim\E-Claim-Service\EClaim.Application\obj\Debug\net8.0\EClaim.Application.sourcelink.json
+C:\Amit\E-Claim\E-Claim-Service\EClaim.Application\obj\Debug\net8.0\EClaim.Application.dll
+C:\Amit\E-Claim\E-Claim-Service\EClaim.Application\obj\Debug\net8.0\refint\EClaim.Application.dll
+C:\Amit\E-Claim\E-Claim-Service\EClaim.Application\obj\Debug\net8.0\EClaim.Application.pdb
+C:\Amit\E-Claim\E-Claim-Service\EClaim.Application\obj\Debug\net8.0\ref\EClaim.Application.dll

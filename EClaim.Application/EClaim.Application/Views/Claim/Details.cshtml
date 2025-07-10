@@ -1,4 +1,4 @@
-﻿@model EClaim.Application.Models.Claim.ClaimDetailViewModel
+﻿@model EClaim.Application.Models.Response.ClaimRequestResponse
 
 @{
     ViewData["Title"] = "Details";
@@ -7,9 +7,15 @@
 <h1>Details</h1>
 
 <div>
-    <h4>ClaimDetailViewModel</h4>
+    <h4>Claim Details</h4>
     <hr />
     <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.User.FullName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.User.FullName)
+        </dd>
         <dt class = "col-sm-2">
             @Html.DisplayNameFor(model => model.Id)
         </dt>
@@ -34,9 +40,84 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Status)
         </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Documents)
+        </dt>
+        <dd class="col-sm-10">
+            <ul>
+                @foreach (var doc in Model.Documents)
+                {
+                    <li>
+                        <a href="@doc.FilePath" target="_blank">@doc.FileName</a>
+                    </li>
+                }
+            </ul>
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.WorkflowSteps)
+        </dt>
+        <dt>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            @Html.DisplayNameFor(model => model.WorkflowSteps.FirstOrDefault().Comments)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.WorkflowSteps.FirstOrDefault().CreatedAt)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.WorkflowSteps.FirstOrDefault().Action)
+                        </th>
+                        <th>
+                            @Html.DisplayNameFor(model => model.WorkflowSteps.FirstOrDefault().User)
+                        </th>
+                        <th>
+                            @Html.DisplayName("User Type")
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var flow in Model.WorkflowSteps)
+                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => flow.Comments)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => flow.CreatedAt)
+                            </td>
+                            <td>
+                                @Utility.GetDisplayName(flow.Action)
+                            </td>
+                            <td>
+                                @if (flow.User != null)
+                                {
+                                    @Html.DisplayFor(modelItem => flow.User.FullName)
+                                }
+                                else
+                                {
+                                    <span>-</span>
+                                }
+                            </td>
+                            <td>
+                                @if (flow.User != null)
+                                {
+                                    @Utility.GetDisplayName(flow.User.Role)
+                                }
+                                else
+                                {
+                                    <span>-</span>
+                                }
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+
+        </dt>
     </dl>
 </div>
 <div>
-    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Submit New Claim</a>
 </div>

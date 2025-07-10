@@ -1,6 +1,27 @@
 [
   {
     "ContainingType": "E_Claim_Service.Controllers.AuthController",
+    "Method": "ConfirmEmail",
+    "RelativePath": "api/Auth/ConfirmEmail/{email}/{token}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_Claim_Service.Controllers.AuthController",
     "Method": "Login",
     "RelativePath": "api/Auth/login",
     "HttpMethod": "POST",
@@ -32,9 +53,25 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "E_Claim_Service.Controllers.ClaimSubmissionController",
+    "ContainingType": "E_Claim_Service.Controllers.ClaimController",
+    "Method": "Get",
+    "RelativePath": "api/Claim",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_Claim_Service.Controllers.ClaimController",
     "Method": "Post",
-    "RelativePath": "api/ClaimSubmission",
+    "RelativePath": "api/Claim",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -42,6 +79,58 @@
       {
         "Name": "claimSubmissionDto",
         "Type": "EClaim.Domain.DTOs.ClaimSubmissionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_Claim_Service.Controllers.ClaimController",
+    "Method": "Get",
+    "RelativePath": "api/Claim/GetClaimDetails",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "UserId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Status",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ClaimType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FromDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ToDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "E_Claim_Service.Controllers.ClaimController",
+    "Method": "UpdateStatus",
+    "RelativePath": "api/Claim/UpdateStatus",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "claimStatusUpdateDto",
+        "Type": "EClaim.Domain.DTOs.ClaimStatusUpdateDto",
         "IsRequired": true
       }
     ],

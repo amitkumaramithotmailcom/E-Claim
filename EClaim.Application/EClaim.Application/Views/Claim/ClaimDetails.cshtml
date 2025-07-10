@@ -1,0 +1,147 @@
+﻿@using EClaim.Application.Enum
+@model IEnumerable<EClaim.Application.Models.Response.ClaimRequestResponse>
+@inject IHttpContextAccessor HttpContextAccessor
+@{
+    var user = HttpContextAccessor.HttpContext.User;
+
+    ViewData["Title"] = "ClaimDetails";
+}
+
+<h1>ClaimDetails</h1>
+
+<div>
+    <a asp-action="Index">Submit New Claim</a>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClaimType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Documents)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Status)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ClaimType)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.User.FullName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.User.Email)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    <ul>
+                        @foreach (var doc in item.Documents)
+                        {
+                            <li>
+                                <a href="@doc.FilePath" target="_blank">@doc.FileName</a>
+                            </li>
+                        }
+                    </ul>
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Status)
+                </td>
+                <td>
+                    @if (User.Identity.IsAuthenticated && (user.IsInRole("Adjuster") || user.IsInRole("Approver")) && item.Status == EClaim.Application.Enum.Status.Submitted)
+                    {
+                        <button class="btn btn-warning action-btn" data-bs-toggle="modal" data-bs-target="#actionModal" data-claim-id="@item.Id" data-action-type="@Status.Reviewed">
+                            Review
+                        </button>
+                    }
+                    @if (User.Identity.IsAuthenticated && user.IsInRole("Approver") && item.Status == EClaim.Application.Enum.Status.Reviewed)
+                    {
+                        <button class="btn btn-success action-btn" data-bs-toggle="modal" data-bs-target="#actionModal" data-claim-id="@item.Id" data-action-type="@Status.Approved">
+                            Approve
+                        </button>
+                    }
+                    @if (User.Identity.IsAuthenticated && (user.IsInRole("Adjuster") || user.IsInRole("Approver")) && item.Status != EClaim.Application.Enum.Status.Approved)
+                    {
+                        <button class="btn btn-danger action-btn" data-bs-toggle="modal" data-bs-target="#actionModal" data-claim-id="@item.Id" data-action-type="@Status.Reviewed">
+                            Reject
+                        </button>
+                    }
+                    @Html.ActionLink("View", "Details", "Claim", new { id = item.Id }, new { @class = "btn btn-sm btn-info" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="modal fade" id="actionModal" tabindex="-1" aria-labelledby="actionModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form id="actionForm" action="TakeAction" method="post">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="actionModalLabel">Take Action</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="hidden" name="Id" id="modalId" />
+                    <input type="hidden" name="Action" id="modalAction" />
+
+                    <div class="mb-3">
+                        <label for="ActionComment" class="form-label">Comment (optional)</label>
+                        <textarea class="form-control" name="Comments" id="Comments" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary" id="submitActionBtn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+    const actionModal = document.getElementById('actionModal');
+    const actionForm = document.getElementById('actionForm');
+
+    actionModal.addEventListener('show.bs.modal', function (event) {
+        const button = event.relatedTarget;
+        const Id = button.getAttribute('data-claim-id');
+        const Action = button.getAttribute('data-action-type');
+
+        document.getElementById('modalId').value = Id;
+        document.getElementById('modalAction').value = Action;
+
+        // Update modal title and button text
+        document.getElementById('actionModalLabel').innerText = `${Action} Claim`;
+        document.getElementById('submitActionBtn').innerText = Action;
+
+        // Optional: Change button color
+        const btn = document.getElementById('submitActionBtn');
+        btn.className = 'btn'; // reset classes
+        if (Action === 'Reject') btn.classList.add('btn-danger');
+        else if (Action === 'Approve') btn.classList.add('btn-success');
+        else btn.classList.add('btn-warning');
+    });
+</script>
