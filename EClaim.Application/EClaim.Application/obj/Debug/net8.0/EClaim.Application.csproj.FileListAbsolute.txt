@@ -469,3 +469,11 @@ C:\Amit\E-Claim\EClaim.Application\EClaim.Application\obj\Debug\net8.0\staticweb
 C:\Amit\E-Claim\EClaim.Application\EClaim.Application\obj\Debug\net8.0\EClaim.A.DFEA4FFC.Up2Date
 C:\Amit\E-Claim\EClaim.Application\EClaim.Application\obj\Debug\net8.0\EClaim.Application.genruntimeconfig.cache
 C:\Amit\E-Claim\EClaim.Application\EClaim.Application\obj\Debug\net8.0\ref\EClaim.Application.dll
+C:\Amit\E-Claim\EClaim.Application\EClaim.Application\bin\Debug\net8.0\ClosedXML.dll
+C:\Amit\E-Claim\EClaim.Application\EClaim.Application\bin\Debug\net8.0\ClosedXML.Parser.dll
+C:\Amit\E-Claim\EClaim.Application\EClaim.Application\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+C:\Amit\E-Claim\EClaim.Application\EClaim.Application\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
+C:\Amit\E-Claim\EClaim.Application\EClaim.Application\bin\Debug\net8.0\ExcelNumberFormat.dll
+C:\Amit\E-Claim\EClaim.Application\EClaim.Application\bin\Debug\net8.0\RBush.dll
+C:\Amit\E-Claim\EClaim.Application\EClaim.Application\bin\Debug\net8.0\SixLabors.Fonts.dll
+C:\Amit\E-Claim\EClaim.Application\EClaim.Application\bin\Debug\net8.0\System.IO.Packaging.dll

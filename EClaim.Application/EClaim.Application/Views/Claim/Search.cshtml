@@ -38,7 +38,12 @@
 
     <div class="col-md-12 mt-3">
         <button type="submit" class="btn btn-primary">Search</button>
+        <a asp-action="ExportToExcel" class="btn btn-primary">
+            Export to Excel
+        </a>
     </div>
+   
+    
 </form>
 
 @if (Model.Results != null)

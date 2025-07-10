@@ -1,4 +1,5 @@
-﻿using EClaim.Application.EmailService;
+﻿using ClosedXML.Excel;
+using EClaim.Application.EmailService;
 using EClaim.Application.Models;
 using EClaim.Application.Models.Claim;
 using EClaim.Application.Models.Response;
@@ -167,8 +168,15 @@ namespace EClaim.Application.Controllers
                 ModelState.AddModelError("", "FromDate cannot be greater than ToDate");
                 return View(model);
             }
+            List<ClaimRequestResponse>? claimRequestResponse = await SearchClaims(model);
+            model.Results = claimRequestResponse;
+            return View(model);
+        }
+
+        private async Task<List<ClaimRequestResponse>?> SearchClaims(ClaimSearchViewModel model)
+        {
             var userId = int.Parse(User.FindFirst("userId").Value);
-            model.UserId= userId;
+            model.UserId = userId;
 
             var queryParams = new Dictionary<string, string?>
                 {
@@ -186,9 +194,47 @@ namespace EClaim.Application.Controllers
 
             var response = await _httpClient.GetStringAsync($"api/Claim/GetClaimDetails?{query}");
 
-            var claimRequestResponse = JsonConvert.DeserializeObject<List<ClaimRequestResponse>>(response);
-            model.Results = claimRequestResponse;
-            return View(model);
+            return JsonConvert.DeserializeObject<List<ClaimRequestResponse>>(response);
+        }
+
+        public async Task<IActionResult> ExportToExcel(ClaimSearchViewModel model)
+        {
+            List<ClaimRequestResponse>? claimRequestResponse = await SearchClaims(model);
+
+            using var workbook = new XLWorkbook();
+            var worksheet = workbook.Worksheets.Add("ClaimDetails");
+
+            // Add headers
+            worksheet.Cell(1, 1).Value = "Claim ID";
+            worksheet.Cell(1, 2).Value = "Full Name";
+            worksheet.Cell(1, 3).Value = "Email";
+            worksheet.Cell(1, 4).Value = "Claim Type";
+            worksheet.Cell(1, 5).Value = "Description";
+            worksheet.Cell(1, 6).Value = "Status";
+            worksheet.Cell(1, 7).Value = "Request Raised On";
+            worksheet.Cell(1, 8).Value = "Comments";
+            worksheet.Cell(1, 9).Value = "Action At";
+            worksheet.Cell(1, 10).Value = "Action By";
+            // Add rows
+            for (int i = 0; i < claimRequestResponse.Count; i++)
+            {
+                worksheet.Cell(i + 2, 1).Value = claimRequestResponse[i].Id;
+                worksheet.Cell(i + 2, 2).Value = claimRequestResponse[i].User.FullName;
+                worksheet.Cell(i + 2, 3).Value = claimRequestResponse[i].User.Email;
+                worksheet.Cell(i + 2, 4).Value = claimRequestResponse[i].ClaimType;
+                worksheet.Cell(i + 2, 5).Value = claimRequestResponse[i].Description;
+                worksheet.Cell(i + 2, 6).Value = claimRequestResponse[i].Status.ToString();
+                worksheet.Cell(i + 2, 7).Value = claimRequestResponse[i].WorkflowSteps.FirstOrDefault().CreatedAt;
+                worksheet.Cell(i + 2, 8).Value = claimRequestResponse[i].WorkflowSteps.LastOrDefault().Comments;
+                worksheet.Cell(i + 2, 9).Value = claimRequestResponse[i].WorkflowSteps.LastOrDefault().CreatedAt;
+                worksheet.Cell(i + 2, 10).Value = claimRequestResponse[i].WorkflowSteps.LastOrDefault().User.FullName;
+            }
+
+            using var stream = new MemoryStream();
+            workbook.SaveAs(stream);
+            stream.Position = 0;
+
+            return File(stream.ToArray(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "ClaimDetails.xlsx");
         }
     }
 }

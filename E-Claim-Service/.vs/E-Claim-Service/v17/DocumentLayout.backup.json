@@ -54,8 +54,7 @@
               "RelativeToolTip": "EClaim.Infrastructure\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T07:58:19.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T07:58:19.702Z"
             },
             {
               "$type": "Document",
@@ -67,8 +66,7 @@
               "RelativeToolTip": "EClaim.API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-10T07:43:13.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T07:43:13.707Z"
             },
             {
               "$type": "Document",
@@ -76,9 +74,9 @@
               "Title": "ClaimService.cs",
               "DocumentMoniker": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.Infrastructure\\ClaimService.cs",
               "RelativeDocumentMoniker": "EClaim.Infrastructure\\ClaimService.cs",
-              "ToolTip": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.Infrastructure\\ClaimService.cs*",
-              "RelativeToolTip": "EClaim.Infrastructure\\ClaimService.cs*",
-              "ViewState": "AgIAACQAAAAAAAAAAAAiwCkAAAAMAAAAAAAAAA==",
+              "ToolTip": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.Infrastructure\\ClaimService.cs",
+              "RelativeToolTip": "EClaim.Infrastructure\\ClaimService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-10T07:03:37.896Z",
               "EditorCaption": ""
@@ -93,8 +91,7 @@
               "RelativeToolTip": "EClaim.Domain\\Interfaces\\IClaimService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T07:03:26.46Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T07:03:26.46Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "EClaim.Infrastructure\\AuthService.cs",
               "ViewState": "AgIAADgAAAAAAAAAAAAwwFIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T06:29:04.961Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T06:29:04.961Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "EClaim.API\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T06:29:04.989Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T06:29:04.989Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "EClaim.Domain\\Entities\\ClaimRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T06:34:41.134Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T06:34:41.134Z"
             },
             {
               "$type": "Document",
@@ -145,8 +139,7 @@
               "RelativeToolTip": "EClaim.API\\Controllers\\ClaimController.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAgwBsAAABXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T10:14:45.972Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T10:14:45.972Z"
             }
           ]
         }
