@@ -34,8 +34,10 @@ namespace EClaim.Infrastructure
 
             var user = new User
             {
-                Email = dto.Email,
                 FullName = dto.FullName,
+                Email = dto.Email,
+                Phone = dto.Phone,
+                Address = dto.Address,
                 PasswordHash = BCrypt.Net.BCrypt.HashPassword(dto.Password),
                 Role = dto.Role,
                 IsEmailVerified = false 

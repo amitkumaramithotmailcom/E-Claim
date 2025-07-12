@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace EClaim.Application.Models.Claim
+namespace EClaim.Application.Models.ViewModel
 {
     public class ClaimSubmissionViewModel
     {

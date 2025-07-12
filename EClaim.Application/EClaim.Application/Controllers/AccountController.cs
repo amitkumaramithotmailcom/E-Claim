@@ -1,6 +1,6 @@
 ﻿using EClaim.Application.EmailService;
-using EClaim.Application.Models;
 using EClaim.Application.Models.Response;
+using EClaim.Application.Models.ViewModel;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Identity;
@@ -35,7 +35,12 @@ namespace EClaim.Application.Controllers
         [HttpPost]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
-            //var client = _httpClientFactory.CreateClient("api");
+
+            if (!model.Password.Equals(model.ConfirmPassword))
+            {
+                ModelState.AddModelError("", "Password not matched with confirm password");
+                return View(model);
+            }
 
             var response = await _httpClient.PostAsync("api/auth/register",
                 new StringContent(JsonConvert.SerializeObject(model), Encoding.UTF8, "application/json"));

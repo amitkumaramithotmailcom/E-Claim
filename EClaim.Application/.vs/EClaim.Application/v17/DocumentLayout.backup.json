@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Amit\\E-Claim\\EClaim.Application\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|c:\\amit\\e-claim\\eclaim.application\\eclaim.application\\models\\viewmodel\\claimsubmissionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|solutionrelative:eclaim.application\\models\\viewmodel\\claimsubmissionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|c:\\amit\\e-claim\\eclaim.application\\eclaim.application\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|solutionrelative:eclaim.application\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,12 +11,40 @@
       "RelativeMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|solutionrelative:eclaim.application\\views\\claim\\search.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|c:\\amit\\e-claim\\eclaim.application\\eclaim.application\\views\\claim\\submit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|solutionrelative:eclaim.application\\views\\claim\\submit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|c:\\amit\\e-claim\\eclaim.application\\eclaim.application\\views\\claim\\claimdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|solutionrelative:eclaim.application\\views\\claim\\claimdetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|c:\\amit\\e-claim\\eclaim.application\\eclaim.application\\views\\claim\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|solutionrelative:eclaim.application\\views\\claim\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|c:\\amit\\e-claim\\eclaim.application\\eclaim.application\\models\\response\\claimrequestresponse .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|solutionrelative:eclaim.application\\models\\response\\claimrequestresponse .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|c:\\amit\\e-claim\\eclaim.application\\eclaim.application\\models\\viewmodel\\claimsearchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|solutionrelative:eclaim.application\\models\\viewmodel\\claimsearchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|c:\\amit\\e-claim\\eclaim.application\\eclaim.application\\models\\viewmodel\\userssearchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|solutionrelative:eclaim.application\\models\\viewmodel\\userssearchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|c:\\amit\\e-claim\\eclaim.application\\eclaim.application\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|solutionrelative:eclaim.application\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|c:\\amit\\e-claim\\eclaim.application\\eclaim.application\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|solutionrelative:eclaim.application\\views\\users\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|c:\\amit\\e-claim\\eclaim.application\\eclaim.application\\models\\usercreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|solutionrelative:eclaim.application\\models\\usercreatemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|c:\\amit\\e-claim\\eclaim.application\\eclaim.application\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|solutionrelative:eclaim.application\\views\\users\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|c:\\amit\\e-claim\\eclaim.application\\eclaim.application\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CAB5A76-A2ED-4F8A-B8DF-4422EFBABA43}|EClaim.Application\\EClaim.Application.csproj|solutionrelative:eclaim.application\\utility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +54,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClaimSubmissionViewModel.cs",
-              "DocumentMoniker": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Models\\ViewModel\\ClaimSubmissionViewModel.cs",
-              "RelativeDocumentMoniker": "EClaim.Application\\Models\\ViewModel\\ClaimSubmissionViewModel.cs",
-              "ToolTip": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Models\\ViewModel\\ClaimSubmissionViewModel.cs",
-              "RelativeToolTip": "EClaim.Application\\Models\\ViewModel\\ClaimSubmissionViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T13:56:38.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Submit.cshtml",
-              "DocumentMoniker": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Views\\Claim\\Submit.cshtml",
-              "RelativeDocumentMoniker": "EClaim.Application\\Views\\Claim\\Submit.cshtml",
-              "ToolTip": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Views\\Claim\\Submit.cshtml",
-              "RelativeToolTip": "EClaim.Application\\Views\\Claim\\Submit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-10T13:51:39.767Z",
+              "Title": "ClaimRequestResponse .cs",
+              "DocumentMoniker": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Models\\Response\\ClaimRequestResponse .cs",
+              "RelativeDocumentMoniker": "EClaim.Application\\Models\\Response\\ClaimRequestResponse .cs",
+              "ToolTip": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Models\\Response\\ClaimRequestResponse .cs",
+              "RelativeToolTip": "EClaim.Application\\Models\\Response\\ClaimRequestResponse .cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T13:29:20.094Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Search.cshtml",
-              "DocumentMoniker": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Views\\Claim\\Search.cshtml",
-              "RelativeDocumentMoniker": "EClaim.Application\\Views\\Claim\\Search.cshtml",
-              "ToolTip": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Views\\Claim\\Search.cshtml",
-              "RelativeToolTip": "EClaim.Application\\Views\\Claim\\Search.cshtml",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACwAAAADAAAAAAAAAA==",
+              "Title": "ClaimDetails.cshtml",
+              "DocumentMoniker": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Views\\Claim\\ClaimDetails.cshtml",
+              "RelativeDocumentMoniker": "EClaim.Application\\Views\\Claim\\ClaimDetails.cshtml",
+              "ToolTip": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Views\\Claim\\ClaimDetails.cshtml",
+              "RelativeToolTip": "EClaim.Application\\Views\\Claim\\ClaimDetails.cshtml",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAAJIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-10T12:44:05.347Z",
+              "WhenOpened": "2025-07-12T13:17:01.266Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Search.cshtml",
+              "DocumentMoniker": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Views\\Claim\\Search.cshtml",
+              "RelativeDocumentMoniker": "EClaim.Application\\Views\\Claim\\Search.cshtml",
+              "ToolTip": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Views\\Claim\\Search.cshtml",
+              "RelativeToolTip": "EClaim.Application\\Views\\Claim\\Search.cshtml",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAiwMIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-12T13:16:20.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UserCreateModel.cs",
+              "DocumentMoniker": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Models\\UserCreateModel.cs",
+              "RelativeDocumentMoniker": "EClaim.Application\\Models\\UserCreateModel.cs",
+              "ToolTip": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Models\\UserCreateModel.cs",
+              "RelativeToolTip": "EClaim.Application\\Models\\UserCreateModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T13:14:20.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Views\\Users\\Edit.cshtml",
+              "RelativeDocumentMoniker": "EClaim.Application\\Views\\Users\\Edit.cshtml",
+              "ToolTip": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Views\\Users\\Edit.cshtml",
+              "RelativeToolTip": "EClaim.Application\\Views\\Users\\Edit.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABEAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-11T13:04:10.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Views\\Users\\Index.cshtml",
+              "RelativeDocumentMoniker": "EClaim.Application\\Views\\Users\\Index.cshtml",
+              "ToolTip": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Views\\Users\\Index.cshtml",
+              "RelativeToolTip": "EClaim.Application\\Views\\Users\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-11T12:14:31.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "ClaimController.cs",
               "DocumentMoniker": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Controllers\\ClaimController.cs",
               "RelativeDocumentMoniker": "EClaim.Application\\Controllers\\ClaimController.cs",
               "ToolTip": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Controllers\\ClaimController.cs",
               "RelativeToolTip": "EClaim.Application\\Controllers\\ClaimController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAgwDUAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAHgAAAAAAAAAAADwv5QAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T12:33:17.597Z",
+              "WhenOpened": "2025-07-11T12:08:30.93Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Views\\Claim\\Details.cshtml",
-              "RelativeDocumentMoniker": "EClaim.Application\\Views\\Claim\\Details.cshtml",
-              "ToolTip": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Views\\Claim\\Details.cshtml",
-              "RelativeToolTip": "EClaim.Application\\Views\\Claim\\Details.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAD8AAABnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-07-10T12:32:48.399Z",
+              "Title": "ClaimSearchViewModel.cs",
+              "DocumentMoniker": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Models\\ViewModel\\ClaimSearchViewModel.cs",
+              "RelativeDocumentMoniker": "EClaim.Application\\Models\\ViewModel\\ClaimSearchViewModel.cs",
+              "ToolTip": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Models\\ViewModel\\ClaimSearchViewModel.cs",
+              "RelativeToolTip": "EClaim.Application\\Models\\ViewModel\\ClaimSearchViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T12:05:53.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Utility.cs",
+              "DocumentMoniker": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Utility.cs",
+              "RelativeDocumentMoniker": "EClaim.Application\\Utility.cs",
+              "ToolTip": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Utility.cs",
+              "RelativeToolTip": "EClaim.Application\\Utility.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T12:04:09.59Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsersSearchViewModel.cs",
+              "DocumentMoniker": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Models\\ViewModel\\UsersSearchViewModel.cs",
+              "RelativeDocumentMoniker": "EClaim.Application\\Models\\ViewModel\\UsersSearchViewModel.cs",
+              "ToolTip": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Models\\ViewModel\\UsersSearchViewModel.cs",
+              "RelativeToolTip": "EClaim.Application\\Models\\ViewModel\\UsersSearchViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T12:01:24.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "EClaim.Application\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Amit\\E-Claim\\EClaim.Application\\EClaim.Application\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "EClaim.Application\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-11T11:58:25.114Z",
               "EditorCaption": ""
             }
           ]

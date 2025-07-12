@@ -3,36 +3,32 @@
   "WorkspaceRootPath": "C:\\Amit\\E-Claim\\E-Claim-Service\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9565F06C-CD7A-4790-BDA6-E4024B27DCAC}|EClaim.Infrastructure\\EClaim.Infrastructure.csproj|c:\\amit\\e-claim\\e-claim-service\\eclaim.infrastructure\\claimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9565F06C-CD7A-4790-BDA6-E4024B27DCAC}|EClaim.Infrastructure\\EClaim.Infrastructure.csproj|solutionrelative:eclaim.infrastructure\\claimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9565F06C-CD7A-4790-BDA6-E4024B27DCAC}|EClaim.Infrastructure\\EClaim.Infrastructure.csproj|c:\\amit\\e-claim\\e-claim-service\\eclaim.infrastructure\\dblogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9565F06C-CD7A-4790-BDA6-E4024B27DCAC}|EClaim.Infrastructure\\EClaim.Infrastructure.csproj|solutionrelative:eclaim.infrastructure\\dblogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89755B2D-B3BD-76D1-07CB-B05A5C539D50}|EClaim.API\\EClaim.API.csproj|c:\\amit\\e-claim\\e-claim-service\\eclaim.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89755B2D-B3BD-76D1-07CB-B05A5C539D50}|EClaim.API\\EClaim.API.csproj|solutionrelative:eclaim.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89755B2D-B3BD-76D1-07CB-B05A5C539D50}|EClaim.API\\EClaim.API.csproj|c:\\amit\\e-claim\\e-claim-service\\eclaim.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89755B2D-B3BD-76D1-07CB-B05A5C539D50}|EClaim.API\\EClaim.API.csproj|solutionrelative:eclaim.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{89755B2D-B3BD-76D1-07CB-B05A5C539D50}|EClaim.API\\EClaim.API.csproj|c:\\amit\\e-claim\\e-claim-service\\eclaim.api\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89755B2D-B3BD-76D1-07CB-B05A5C539D50}|EClaim.API\\EClaim.API.csproj|solutionrelative:eclaim.api\\controllers\\claimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EEF3432A-5C28-45BC-8E01-89A2866BDEC2}|EClaim.Domain\\EClaim.Domain.csproj|c:\\amit\\e-claim\\e-claim-service\\eclaim.domain\\interfaces\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEF3432A-5C28-45BC-8E01-89A2866BDEC2}|EClaim.Domain\\EClaim.Domain.csproj|solutionrelative:eclaim.domain\\interfaces\\iclaimservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9565F06C-CD7A-4790-BDA6-E4024B27DCAC}|EClaim.Infrastructure\\EClaim.Infrastructure.csproj|c:\\amit\\e-claim\\e-claim-service\\eclaim.infrastructure\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9565F06C-CD7A-4790-BDA6-E4024B27DCAC}|EClaim.Infrastructure\\EClaim.Infrastructure.csproj|solutionrelative:eclaim.infrastructure\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{89755B2D-B3BD-76D1-07CB-B05A5C539D50}|EClaim.API\\EClaim.API.csproj|c:\\amit\\e-claim\\e-claim-service\\eclaim.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{89755B2D-B3BD-76D1-07CB-B05A5C539D50}|EClaim.API\\EClaim.API.csproj|solutionrelative:eclaim.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9565F06C-CD7A-4790-BDA6-E4024B27DCAC}|EClaim.Infrastructure\\EClaim.Infrastructure.csproj|c:\\amit\\e-claim\\e-claim-service\\eclaim.infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9565F06C-CD7A-4790-BDA6-E4024B27DCAC}|EClaim.Infrastructure\\EClaim.Infrastructure.csproj|solutionrelative:eclaim.infrastructure\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{89755B2D-B3BD-76D1-07CB-B05A5C539D50}|EClaim.API\\EClaim.API.csproj|c:\\amit\\e-claim\\e-claim-service\\eclaim.api\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89755B2D-B3BD-76D1-07CB-B05A5C539D50}|EClaim.API\\EClaim.API.csproj|solutionrelative:eclaim.api\\globalexceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{89755B2D-B3BD-76D1-07CB-B05A5C539D50}|EClaim.API\\EClaim.API.csproj|c:\\amit\\e-claim\\e-claim-service\\eclaim.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{89755B2D-B3BD-76D1-07CB-B05A5C539D50}|EClaim.API\\EClaim.API.csproj|solutionrelative:eclaim.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EEF3432A-5C28-45BC-8E01-89A2866BDEC2}|EClaim.Domain\\EClaim.Domain.csproj|c:\\amit\\e-claim\\e-claim-service\\eclaim.domain\\entities\\claimrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EEF3432A-5C28-45BC-8E01-89A2866BDEC2}|EClaim.Domain\\EClaim.Domain.csproj|solutionrelative:eclaim.domain\\entities\\claimrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9565F06C-CD7A-4790-BDA6-E4024B27DCAC}|EClaim.Infrastructure\\EClaim.Infrastructure.csproj|c:\\amit\\e-claim\\e-claim-service\\eclaim.infrastructure\\dbloggerprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9565F06C-CD7A-4790-BDA6-E4024B27DCAC}|EClaim.Infrastructure\\EClaim.Infrastructure.csproj|solutionrelative:eclaim.infrastructure\\dbloggerprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,68 +38,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.Infrastructure\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "EClaim.Infrastructure\\AppDbContext.cs",
-              "ToolTip": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.Infrastructure\\AppDbContext.cs",
-              "RelativeToolTip": "EClaim.Infrastructure\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T07:58:19.702Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.API\\appsettings.json",
-              "RelativeDocumentMoniker": "EClaim.API\\appsettings.json",
-              "ToolTip": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.API\\appsettings.json",
-              "RelativeToolTip": "EClaim.API\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-10T07:43:13.707Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ClaimService.cs",
-              "DocumentMoniker": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.Infrastructure\\ClaimService.cs",
-              "RelativeDocumentMoniker": "EClaim.Infrastructure\\ClaimService.cs",
-              "ToolTip": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.Infrastructure\\ClaimService.cs",
-              "RelativeToolTip": "EClaim.Infrastructure\\ClaimService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABQAAAAAAAAAA==",
+              "Title": "DbLogger.cs",
+              "DocumentMoniker": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.Infrastructure\\DbLogger.cs",
+              "RelativeDocumentMoniker": "EClaim.Infrastructure\\DbLogger.cs",
+              "ToolTip": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.Infrastructure\\DbLogger.cs",
+              "RelativeToolTip": "EClaim.Infrastructure\\DbLogger.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAqwDQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T07:03:37.896Z",
+              "WhenOpened": "2025-07-12T13:08:16.494Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "IClaimService.cs",
-              "DocumentMoniker": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.Domain\\Interfaces\\IClaimService.cs",
-              "RelativeDocumentMoniker": "EClaim.Domain\\Interfaces\\IClaimService.cs",
-              "ToolTip": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.Domain\\Interfaces\\IClaimService.cs",
-              "RelativeToolTip": "EClaim.Domain\\Interfaces\\IClaimService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAABVAAAAAAAAAA==",
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "EClaim.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "EClaim.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T07:03:26.46Z"
+              "WhenOpened": "2025-07-12T13:05:56.464Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.Infrastructure\\AuthService.cs",
-              "RelativeDocumentMoniker": "EClaim.Infrastructure\\AuthService.cs",
-              "ToolTip": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.Infrastructure\\AuthService.cs",
-              "RelativeToolTip": "EClaim.Infrastructure\\AuthService.cs",
-              "ViewState": "AgIAADgAAAAAAAAAAAAwwFIAAAAVAAAAAAAAAA==",
+              "Title": "ClaimController.cs",
+              "DocumentMoniker": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.API\\Controllers\\ClaimController.cs",
+              "RelativeDocumentMoniker": "EClaim.API\\Controllers\\ClaimController.cs",
+              "ToolTip": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.API\\Controllers\\ClaimController.cs",
+              "RelativeToolTip": "EClaim.API\\Controllers\\ClaimController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T06:29:04.961Z"
+              "WhenOpened": "2025-07-12T13:02:59.254Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -113,33 +87,49 @@
               "RelativeDocumentMoniker": "EClaim.API\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "EClaim.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T06:29:04.989Z"
+              "WhenOpened": "2025-07-12T13:00:34.097Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ClaimRequest.cs",
-              "DocumentMoniker": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.Domain\\Entities\\ClaimRequest.cs",
-              "RelativeDocumentMoniker": "EClaim.Domain\\Entities\\ClaimRequest.cs",
-              "ToolTip": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.Domain\\Entities\\ClaimRequest.cs",
-              "RelativeToolTip": "EClaim.Domain\\Entities\\ClaimRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "GlobalExceptionMiddleware.cs",
+              "DocumentMoniker": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.API\\GlobalExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "EClaim.API\\GlobalExceptionMiddleware.cs",
+              "ToolTip": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.API\\GlobalExceptionMiddleware.cs",
+              "RelativeToolTip": "EClaim.API\\GlobalExceptionMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBkAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T06:34:41.134Z"
+              "WhenOpened": "2025-07-12T12:59:25.108Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ClaimController.cs",
-              "DocumentMoniker": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.API\\Controllers\\ClaimController.cs",
-              "RelativeDocumentMoniker": "EClaim.API\\Controllers\\ClaimController.cs",
-              "ToolTip": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.API\\Controllers\\ClaimController.cs",
-              "RelativeToolTip": "EClaim.API\\Controllers\\ClaimController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAgwBsAAABXAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.API\\Program.cs",
+              "RelativeDocumentMoniker": "EClaim.API\\Program.cs",
+              "ToolTip": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.API\\Program.cs",
+              "RelativeToolTip": "EClaim.API\\Program.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T10:14:45.972Z"
+              "WhenOpened": "2025-07-12T12:58:13.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DbLoggerProvider.cs",
+              "DocumentMoniker": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.Infrastructure\\DbLoggerProvider.cs",
+              "RelativeDocumentMoniker": "EClaim.Infrastructure\\DbLoggerProvider.cs",
+              "ToolTip": "C:\\Amit\\E-Claim\\E-Claim-Service\\EClaim.Infrastructure\\DbLoggerProvider.cs",
+              "RelativeToolTip": "EClaim.Infrastructure\\DbLoggerProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T12:57:29.008Z",
+              "EditorCaption": ""
             }
           ]
         }

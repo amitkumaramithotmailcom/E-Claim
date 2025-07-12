@@ -477,3 +477,4 @@ C:\Amit\E-Claim\EClaim.Application\EClaim.Application\bin\Debug\net8.0\ExcelNumb
 C:\Amit\E-Claim\EClaim.Application\EClaim.Application\bin\Debug\net8.0\RBush.dll
 C:\Amit\E-Claim\EClaim.Application\EClaim.Application\bin\Debug\net8.0\SixLabors.Fonts.dll
 C:\Amit\E-Claim\EClaim.Application\EClaim.Application\bin\Debug\net8.0\System.IO.Packaging.dll
+C:\Amit\E-Claim\EClaim.Application\EClaim.Application\bin\Debug\net8.0\bundleconfig.json

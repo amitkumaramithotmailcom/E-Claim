@@ -1,0 +1,82 @@
+﻿@using EClaim.Application.Models.ViewModel
+@model UsersSearchViewModel
+
+@{
+    ViewData["Title"] = "User Search";
+}
+
+<h2>User Search</h2>
+
+<form asp-action="Index" method="get" class="row g-3 mb-4">
+    <div class="col-md-3">
+        <label asp-for="FullName" class="form-label">Full Name</label>
+        <input asp-for="FullName" class="form-control" />
+    </div>
+    <div class="col-md-3">
+        <label asp-for="Email" class="form-label">Email</label>
+        <input asp-for="Email" class="form-control" />
+    </div>
+    <div class="col-md-3">
+        <label asp-for="Phone" class="form-label">Phone</label>
+        <input asp-for="Phone" class="form-control" />
+    </div>
+    <div class="col-md-3">
+        <label asp-for="Role" class="form-label">Role</label>
+        <select asp-for="Role" class="form-select" asp-items="new SelectList(Model.Roles)">
+            <option value="">-- All Roles --</option>
+        </select>
+    </div>
+    <div class="col-md-3">
+        <label asp-for="IsEmailVerified" class="form-label">Email Verified</label>
+        <select asp-for="IsEmailVerified" class="form-select" asp-items="new SelectList(Model.UserVerified)">
+            <option value="">-- All --</option>
+        </select>
+    </div>
+    <div class="col-md-3">
+        <label asp-for="FromDate" class="form-label">From Date</label>
+        <input asp-for="FromDate" type="date" class="form-control" />
+    </div>
+    <div class="col-md-3">
+        <label asp-for="ToDate" class="form-label">To Date</label>
+        <input asp-for="ToDate" type="date" class="form-control" />
+    </div>
+    <div class="col-md-3 align-self-end">
+        <button type="submit" class="btn btn-primary w-100">Search</button>
+    </div>
+</form>
+
+@if (Model.Results != null && Model.Results.Any())
+{
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Phone</th
+                     <th>Address</th>
+                <th>Role</th>
+                <th>Email Verified</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var user in Model.Results)
+            {
+                <tr>
+                    <td>@user.Id</td>
+                    <td>@user.FullName</td>
+                    <td>@user.Email</td>
+                    <td>@user.Phone</td>
+                     <td>@user.Address</td>
+                    <td>@user.Role</td>
+                    <td>@user.IsEmailVerified</td>
+                    <td> @Html.ActionLink("Edit", "Edit", "Users", new { id = user.Id }, new { @class = "btn btn-sm btn-info" })</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else if (Model.Results != null)
+{
+    <div class="alert alert-info">No users found matching the criteria.</div>
+}

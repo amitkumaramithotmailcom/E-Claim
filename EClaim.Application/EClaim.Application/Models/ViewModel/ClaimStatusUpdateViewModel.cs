@@ -1,7 +1,7 @@
 ﻿using EClaim.Application.Enum;
 using EClaim.Application.Models.Response;
 
-namespace EClaim.Application.Models.Claim
+namespace EClaim.Application.Models.ViewModel
 {
     public class ClaimStatusUpdateViewModel
     {

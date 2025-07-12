@@ -389,4 +389,3 @@ C:\Amit\E-Claim\E-Claim-Service\EClaim.API\obj\Debug\net8.0\refint\EClaim.API.dl
 C:\Amit\E-Claim\E-Claim-Service\EClaim.API\obj\Debug\net8.0\EClaim.API.pdb
 C:\Amit\E-Claim\E-Claim-Service\EClaim.API\obj\Debug\net8.0\EClaim.API.genruntimeconfig.cache
 C:\Amit\E-Claim\E-Claim-Service\EClaim.API\obj\Debug\net8.0\ref\EClaim.API.dll
-C:\Amit\E-Claim\E-Claim-Service\EClaim.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

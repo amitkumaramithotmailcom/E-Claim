@@ -61,3 +61,8 @@ wwwroot\lib\jquery\LICENSE.txt
 wwwroot\uploads\error.jpg
 wwwroot\uploads\Screenshot 2025-07-09 152141.jpg
 wwwroot\uploads\Screenshot 2025-07-09 152233.jpg
+wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-theme.css.map
+wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css
+wwwroot\lib\bootstrap\dist\css\bootstrap-theme.min.css.map
+wwwroot\uploads\1 (4).jpg

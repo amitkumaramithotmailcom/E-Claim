@@ -1,4 +1,4 @@
-﻿namespace EClaim.Application.Models
+﻿namespace EClaim.Application.Models.ViewModel
 {
     public class AuthResponseViewModel
     {

@@ -32,9 +32,12 @@
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Claim" asp-action="Submit">Submit Claim</a>
                             </li>
                         }
-                       @*  <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Claim" asp-action="ClaimDetails" asp-route-fromDate="@DateTime.Now.AddDays(-1).ToString("dd-MMM-yyyy")" asp-route-toDate="@DateTime.Now.ToString("dd-MMM-yyyy")">Claim Details</a>
-                        </li> *@
+                        @if (User.Identity.IsAuthenticated && user.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Users" asp-action="Index">Profile management</a>
+                            </li>
+                        }
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Claim" asp-action="Search" >Claim Search</a>
                         </li>

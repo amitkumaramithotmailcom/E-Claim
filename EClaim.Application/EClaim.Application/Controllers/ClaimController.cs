@@ -1,7 +1,6 @@
 ﻿using ClosedXML.Excel;
 using EClaim.Application.EmailService;
 using EClaim.Application.Models;
-using EClaim.Application.Models.Claim;
 using EClaim.Application.Models.Response;
 using EClaim.Application.Models.ViewModel;
 using Humanizer;
@@ -146,20 +145,9 @@ namespace EClaim.Application.Controllers
 
             if (response.IsSuccessStatusCode)
             {
-                //var claimResponse = await _httpClient.GetStringAsync($"api/Claim?id={model.Id}");
-                //var claimRequestResponse = JsonConvert.DeserializeObject<ClaimRequestResponse>(claimResponse);
 
-                //var userEmail = User.FindFirst("Email").Value;
-                //string htmlContent = await _viewRenderService.RenderToStringAsync("Views/Claim/Details.cshtml", claimRequestResponse);
-
-                //var IsEnable = bool.Parse(_config["Smtp:IsEnable"]);
-                //await _emailService.SendEmailAsync(
-                //   IsEnable ? userEmail : _config["Smtp:From"],
-                // $"Claim Request {model.Action}", htmlContent);
-
-
-
-                return RedirectToAction($"ClaimDetails", new { fromDate = DateTime.Now.AddDays(-1).ToString("dd-MMM-yyyy"), toDate = DateTime.Now.ToString("dd-MMM-yyyy") });
+                return RedirectToAction("Search");
+                //return RedirectToAction($"ClaimDetails", new { fromDate = DateTime.Now.AddDays(-1).ToString("dd-MMM-yyyy"), toDate = DateTime.Now.ToString("dd-MMM-yyyy") });
             }
             else
             {

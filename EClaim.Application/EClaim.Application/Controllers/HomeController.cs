@@ -1,4 +1,5 @@
 using EClaim.Application.Models;
+using EClaim.Application.Models.ViewModel;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;

@@ -1,4 +1,4 @@
-﻿namespace EClaim.Application.Models.Claim
+﻿namespace EClaim.Application.Models.ViewModel
 {
     public class ClaimDetailViewModel
     {
